@@ -212,6 +212,8 @@ figcaption {
 .images {
   display: flex;
   justify-content: center;
+  min-width: 500px;
+  min-height: 299px;
 }
 
 .images img {
@@ -306,8 +308,8 @@ figcaption {
 }
 
 .product-image {
-  max-width: 349px;
-  max-height: 419px;
+  min-width: 349px;
+  min-height: 419px;
   padding-bottom: 20px;
 }
 
@@ -435,10 +437,6 @@ figcaption {
   margin-right: 96.28px;
 }
 
-.description-head {
-  padding-bottom: 60px;
-}
-
 .description-tit {
   margin: 0;
   padding-bottom: 30px;
@@ -452,6 +450,7 @@ figcaption {
   line-height: 138%;
   color: #2238658a;
   max-width: 620px;
+  padding-bottom: 60px;
 }
 
 .points {
